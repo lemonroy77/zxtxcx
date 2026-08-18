@@ -1,0 +1,119 @@
+
+.page.data-v-0850e580 {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+	padding: 0 24rpx 40rpx;
+}
+
+/* 区块卡片 */
+.section.data-v-0850e580 {
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	padding: 30rpx;
+	margin-top: 24rpx;
+}
+
+/* 卡片外一级标题 */
+.outer-title.data-v-0850e580 {
+	padding: 24rpx 0 12rpx;
+}
+.outer-title-text.data-v-0850e580 {
+	font-size: 30rpx;
+	color: #999999;
+}
+
+/* 信息行 */
+.info-row.data-v-0850e580 {
+	display: flex;
+	align-items: center;
+	margin-top: 24rpx;
+}
+.info-row.data-v-0850e580:first-child {
+	margin-top: 0;
+}
+.info-dot.data-v-0850e580 {
+	width: 14rpx;
+	height: 14rpx;
+	background-color: #4CAF50;
+	border-radius: 50%;
+	margin-right: 12rpx;
+	flex-shrink: 0;
+}
+.info-label.data-v-0850e580 {
+	font-size: 28rpx;
+	color: #333333;
+	font-weight: bold;
+}
+.info-value.data-v-0850e580 {
+	font-size: 28rpx;
+	color: #333333;
+	margin-left: 26rpx;
+	margin-bottom: 16rpx;
+	line-height: 40rpx;
+}
+
+/* 区块头部带操作 */
+.section-header.data-v-0850e580 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 24rpx;
+}
+.section-header-title.data-v-0850e580 {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #333333;
+}
+.section-action.data-v-0850e580 {
+	display: flex;
+	align-items: center;
+}
+.action-icon.data-v-0850e580 {
+	color: #4CAF50;
+	font-size: 28rpx;
+	margin-right: 4rpx;
+}
+.action-text.data-v-0850e580 {
+	color: #4CAF50;
+	font-size: 26rpx;
+}
+
+/* 统计行 */
+.stat-row.data-v-0850e580 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20rpx 0;
+}
+.stat-row.single.data-v-0850e580 {
+	justify-content: center;
+	flex-direction: row;
+}
+.stat-item.data-v-0850e580 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.stat-label.data-v-0850e580 {
+	font-size: 26rpx;
+	color: #999999;
+	margin-bottom: 8rpx;
+}
+.stat-value.data-v-0850e580 {
+	font-size: 40rpx;
+	font-weight: bold;
+	color: #333333;
+}
+.single .stat-label.data-v-0850e580 {
+	margin-right: 16rpx;
+	margin-bottom: 0;
+}
+
+/* 描述文字 */
+.advice-desc.data-v-0850e580 {
+	font-size: 24rpx;
+	color: #999999;
+	line-height: 38rpx;
+	margin-bottom: 16rpx;
+}
+

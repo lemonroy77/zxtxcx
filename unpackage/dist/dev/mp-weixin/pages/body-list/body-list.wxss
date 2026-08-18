@@ -1,0 +1,141 @@
+
+.page.data-v-0c2888da {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+	display: flex;
+	flex-direction: column;
+}
+
+/* 搜索栏 */
+.search-bar.data-v-0c2888da {
+	display: flex;
+	align-items: center;
+	padding: 20rpx 24rpx;
+	background-color: #FFFFFF;
+}
+.search-input-wrap.data-v-0c2888da {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	background-color: #F5F5F5;
+	border-radius: 36rpx;
+	padding: 16rpx 24rpx;
+}
+.search-icon.data-v-0c2888da {
+	font-size: 28rpx;
+	color: #999999;
+	margin-right: 12rpx;
+}
+.search-input.data-v-0c2888da {
+	flex: 1;
+	font-size: 26rpx;
+	color: #333333;
+}
+.search-placeholder.data-v-0c2888da {
+	color: #CCCCCC;
+	font-size: 26rpx;
+}
+.filter-btn.data-v-0c2888da {
+	display: flex;
+	align-items: center;
+	margin-left: 20rpx;
+	flex-shrink: 0;
+}
+.filter-icon.data-v-0c2888da {
+	font-size: 24rpx;
+	color: #666666;
+	margin-right: 4rpx;
+}
+.filter-text.data-v-0c2888da {
+	font-size: 26rpx;
+	color: #666666;
+}
+
+/* 记录数提示 */
+.record-tip.data-v-0c2888da {
+	padding: 16rpx 24rpx;
+}
+.record-tip-text.data-v-0c2888da {
+	font-size: 24rpx;
+	color: #999999;
+}
+
+/* 列表滚动区 */
+.list-scroll.data-v-0c2888da {
+	flex: 1;
+	padding: 0 24rpx;
+}
+
+/* 卡片 */
+.card.data-v-0c2888da {
+	background-color: #FFFFFF;
+	border-radius: 16rpx;
+	padding: 30rpx;
+	margin-bottom: 20rpx;
+	position: relative;
+}
+.card-info.data-v-0c2888da {
+	display: flex;
+	flex-direction: column;
+}
+.card-name.data-v-0c2888da {
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 16rpx;
+}
+.card-detail.data-v-0c2888da {
+	font-size: 26rpx;
+	color: #666666;
+	margin-bottom: 12rpx;
+	line-height: 38rpx;
+}
+.card-time.data-v-0c2888da {
+	font-size: 24rpx;
+	color: #999999;
+}
+.card-delete.data-v-0c2888da {
+	position: absolute;
+	right: 30rpx;
+	bottom: 30rpx;
+	border: 1rpx solid #E53935;
+	border-radius: 8rpx;
+	padding: 8rpx 24rpx;
+}
+.card-delete-text.data-v-0c2888da {
+	font-size: 24rpx;
+	color: #E53935;
+}
+
+/* 没有更多 */
+.no-more.data-v-0c2888da {
+	padding: 30rpx 0 20rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.no-more-text.data-v-0c2888da {
+	font-size: 24rpx;
+	color: #CCCCCC;
+}
+
+/* 底部创建按钮 */
+.bottom-btn-area.data-v-0c2888da {
+	padding: 20rpx 40rpx;
+	padding-bottom: 40rpx;
+	background-color: #F5F5F5;
+}
+.create-btn.data-v-0c2888da {
+	background: linear-gradient(135deg, #4CAF50 0%, #66BB6A 100%);
+	border-radius: 48rpx;
+	height: 96rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.create-btn-text.data-v-0c2888da {
+	color: #FFFFFF;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+

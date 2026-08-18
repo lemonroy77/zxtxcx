@@ -1,0 +1,163 @@
+
+.page.data-v-b237504c {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+}
+
+/* 顶部绿色区域 */
+.header.data-v-b237504c {
+	background: linear-gradient(135deg, #4CAF50 0%, #66BB6A 100%);
+	padding-bottom: 60rpx;
+	border-radius: 0 0 40rpx 40rpx;
+}
+.header-content.data-v-b237504c {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60rpx 0 20rpx;
+}
+.logo-icon.data-v-b237504c {
+	width: 120rpx;
+	height: 120rpx;
+	background-color: #FFFFFF;
+	border-radius: 28rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20rpx;
+}
+.logo-text-g1.data-v-b237504c {
+	color: #4CAF50;
+	font-size: 52rpx;
+	font-weight: bold;
+	font-style: italic;
+	margin-right: -8rpx;
+}
+.logo-text-g2.data-v-b237504c {
+	color: #2E7D32;
+	font-size: 52rpx;
+	font-weight: bold;
+	font-style: italic;
+}
+.app-name.data-v-b237504c {
+	color: #FFFFFF;
+	font-size: 40rpx;
+	font-weight: bold;
+	margin-bottom: 8rpx;
+}
+.app-slogan.data-v-b237504c {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 24rpx;
+}
+
+/* 表单区域 */
+.form-area.data-v-b237504c {
+	margin: -30rpx 40rpx 0;
+	background-color: #FFFFFF;
+	border-radius: 24rpx;
+	padding: 50rpx 40rpx 40rpx;
+	box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.06);
+}
+.form-title.data-v-b237504c {
+	font-size: 36rpx;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 50rpx;
+}
+
+/* 输入框 */
+.input-wrap.data-v-b237504c {
+	display: flex;
+	align-items: center;
+	border-bottom: 1rpx solid #F0F0F0;
+	padding: 24rpx 0;
+	margin-bottom: 10rpx;
+}
+.input-icon.data-v-b237504c {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 20rpx;
+	flex-shrink: 0;
+}
+.form-input.data-v-b237504c {
+	flex: 1;
+	font-size: 28rpx;
+	color: #333333;
+}
+.input-placeholder.data-v-b237504c {
+	color: #CCCCCC;
+	font-size: 28rpx;
+}
+.eye-btn.data-v-b237504c {
+	padding: 10rpx;
+	flex-shrink: 0;
+}
+.eye-icon.data-v-b237504c {
+	width: 40rpx;
+	height: 40rpx;
+}
+
+/* 登录按钮 */
+.login-btn.data-v-b237504c {
+	margin-top: 50rpx;
+	height: 96rpx;
+	background: linear-gradient(135deg, #4CAF50 0%, #66BB6A 100%);
+	border-radius: 48rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login-btn-text.data-v-b237504c {
+	color: #FFFFFF;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+
+/* 底部链接 */
+.bottom-links.data-v-b237504c {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30rpx;
+}
+.link-text.data-v-b237504c {
+	font-size: 26rpx;
+	color: #4CAF50;
+}
+
+/* 协议 */
+.agreement.data-v-b237504c {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40rpx 40rpx 60rpx;
+	flex-wrap: wrap;
+}
+.check-box.data-v-b237504c {
+	width: 32rpx;
+	height: 32rpx;
+	border: 2rpx solid #CCCCCC;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10rpx;
+	flex-shrink: 0;
+}
+.check-inner.data-v-b237504c {
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 50%;
+}
+.check-active.data-v-b237504c {
+	background-color: #4CAF50;
+}
+.agreement-text.data-v-b237504c {
+	font-size: 22rpx;
+	color: #999999;
+}
+.agreement-link.data-v-b237504c {
+	font-size: 22rpx;
+	color: #4CAF50;
+}
+

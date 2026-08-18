@@ -1,0 +1,163 @@
+
+.page.data-v-6ae934ce {
+	min-height: 100vh;
+	background-color: #F5F5F5;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Tab 栏 */
+.tab-bar.data-v-6ae934ce {
+	display: flex;
+	background-color: #FFFFFF;
+	border-bottom: 1rpx solid #F0F0F0;
+}
+.tab-item.data-v-6ae934ce {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 24rpx 0;
+	position: relative;
+}
+.tab-active.data-v-6ae934ce {
+	border-bottom: 4rpx solid #4CAF50;
+}
+.tab-text.data-v-6ae934ce {
+	font-size: 28rpx;
+	color: #999999;
+}
+.tab-text-active.data-v-6ae934ce {
+	color: #4CAF50;
+	font-weight: bold;
+}
+
+/* 内容滚动区 */
+.content-scroll.data-v-6ae934ce {
+	flex: 1;
+	padding: 0 0 200rpx;
+}
+
+/* 问题项 */
+.question-item.data-v-6ae934ce {
+	background-color: #FFFFFF;
+	padding: 30rpx;
+	margin-bottom: 2rpx;
+}
+.question-title.data-v-6ae934ce {
+	display: flex;
+	align-items: center;
+	margin-bottom: 16rpx;
+}
+.required.data-v-6ae934ce {
+	color: #E53935;
+	font-size: 28rpx;
+	margin-right: 6rpx;
+}
+.question-title-text.data-v-6ae934ce {
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #333333;
+}
+.question-desc.data-v-6ae934ce {
+	font-size: 24rpx;
+	color: #999999;
+	line-height: 38rpx;
+	margin-bottom: 24rpx;
+}
+
+/* 选项 */
+.option-list.data-v-6ae934ce {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 40rpx;
+}
+.option-item.data-v-6ae934ce {
+	display: flex;
+	align-items: center;
+}
+.radio-circle.data-v-6ae934ce {
+	width: 40rpx;
+	height: 40rpx;
+	border-radius: 50%;
+	border: 3rpx solid #CCCCCC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 16rpx;
+	flex-shrink: 0;
+}
+.radio-active.data-v-6ae934ce {
+	border-color: #4CAF50;
+}
+.radio-dot.data-v-6ae934ce {
+	width: 22rpx;
+	height: 22rpx;
+	border-radius: 50%;
+	background-color: #4CAF50;
+}
+.option-text.data-v-6ae934ce {
+	font-size: 28rpx;
+	color: #333333;
+}
+
+/* 底部按钮区（固定底部） */
+.bottom-area.data-v-6ae934ce {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #FFFFFF;
+	padding: 20rpx 30rpx;
+	padding-bottom: calc(20rpx + env(safe-area-inset-bottom));
+	box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.05);
+	z-index: 100;
+}
+.btn-row.data-v-6ae934ce {
+	display: flex;
+	align-items: center;
+	gap: 20rpx;
+}
+.prev-btn.data-v-6ae934ce {
+	flex: 1;
+	height: 88rpx;
+	border: 2rpx solid #999999;
+	border-radius: 44rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFFFFF;
+}
+.prev-btn-text.data-v-6ae934ce {
+	color: #999999;
+	font-size: 28rpx;
+}
+.save-btn.data-v-6ae934ce {
+	flex: 1;
+	height: 88rpx;
+	border: 2rpx solid #4CAF50;
+	border-radius: 44rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFFFFF;
+}
+.save-btn-text.data-v-6ae934ce {
+	color: #4CAF50;
+	font-size: 28rpx;
+}
+.next-btn.data-v-6ae934ce {
+	flex: 1;
+	height: 88rpx;
+	background: linear-gradient(135deg, #4CAF50 0%, #66BB6A 100%);
+	border-radius: 44rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.next-btn-text.data-v-6ae934ce {
+	color: #FFFFFF;
+	font-size: 28rpx;
+}
+
